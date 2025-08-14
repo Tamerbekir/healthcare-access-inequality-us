@@ -1,12 +1,8 @@
 # Healthcare Access Inequality in the U.S.
-This project explores disparities in healthcare access across U.S. counties using publicly available datasets. It focuses on how income, race, and geography affect access to primary care and insurance coverage.
 
+This project investigates disparities in healthcare access across U.S. counties using SQL and publicly available datasets. It focuses on how income, race, and geography affect access to primary care and insurance coverage.
 
-# 🏥 Healthcare Access Inequality in the U.S.
-
-This project explores disparities in healthcare access across U.S. counties using publicly available datasets. It focuses on how income, race, and geography affect access to primary care and insurance coverage.
-
-## 📌 Objectives
+## Objectives
 
 - Identify counties with limited access to healthcare facilities
 - Analyze correlations between income level and healthcare access
@@ -21,40 +17,37 @@ This project explores disparities in healthcare access across U.S. counties usin
 | HRSA Health Center Data | [HRSA](https://data.hrsa.gov/) | Locations and services of federally funded health centers |
 | U.S. Census Health Insurance Coverage | [Census](https://data.census.gov/) | Insurance coverage by race, income, and geography |
 
-## 🛠️ Tools & Technologies
+## 🛠Tools & Technologies
 
-- **SQL**: Data cleaning, joins, and analysis
-- **Python (Pandas, Matplotlib)**: Exploratory analysis
-- **Tableau / Power BI**: Interactive dashboards and maps
+- **SQL**: Data cleaning, joining, and analysis
+- **Tableau / Power BI** *(optional)*: For visualizing results
 
-## 📂 Folder Overview
+## Folder Overview
 
 - `data/`: Raw CSV files from CDC, HRSA, and Census
 - `sql/`: SQL scripts for cleaning and analysis
-- `notebooks/`: Jupyter notebook for exploratory data analysis
 - `visualizations/`: Charts and maps generated from the analysis
 
-## 📈 Key Insights
+## 📈 Key Insights (Example Goals)
 
 - Counties with high social vulnerability often lack nearby health centers
 - Uninsured rates are significantly higher in rural and low-income areas
 - Racial disparities persist in healthcare access, especially in Southern states
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repo  
    `git clone https://github.com/yourusername/healthcare-access-inequality-us.git`
 
-2. Load the data into your SQL environment (e.g., PostgreSQL, SQLite)
+2. Load the CSV files into your SQL database (e.g., PostgreSQL, SQLite, MySQL)
 
-3. Run the SQL scripts in the `sql/` folder
+3. Run the SQL scripts in the `sql/` folder:
+   - `clean_svi.sql`: Cleans and formats CDC data
+   - `join_healthcare_data.sql`: Joins all datasets
+   - `analysis_queries.sql`: Runs key insights queries
 
-4. Use the notebook in `notebooks/` for further analysis
+4. Use Tableau or Power BI to visualize the results
 
-5. View visualizations in `visualizations/` or build your own dashboard
+## Contact
 
-## 📬 Contact
-
-Feel free to reach out if you want to collaborate or have questions!
-
----
+Open to feedback, collaboration, or questions!
