@@ -13,9 +13,10 @@ This project investigates disparities in healthcare access across U.S. counties 
 
 | Dataset | Source | Description |
 |--------|--------|-------------|
-| CDC Social Vulnerability Index | [CDC SVI]([(https://www.atsdr.cdc.gov/place-health/php/svi/?CDC_AAref_Val=https://www.atsdr.cdc.gov/placeandhealth/svi/index.html)]) | Measures socioeconomic and demographic vulnerability |
-| HRSA Health Center Data | [HRSA]([https://data.hrsa.gov/](https://data.hrsa.gov/tools/data-reporting/program-data)) | Locations and services of federally funded health centers |
-| U.S. Census Health Insurance Coverage | [Census](https://data.census.gov/) | Insurance coverage by race, income, and geography |
+| CDC Social Vulnerability Index | [CDC SVI](https://www.atsdr.cdc.gov/place-health/php/svi/index.html) | Measures socioeconomic and demographic vulnerability across U.S. communities |
+| HRSA Health Center Data | [HRSA Data Warehouse](https://data.hrsa.gov/tools/data-reporting) | Locations and services of federally funded health centers |
+| U.S. Census Health Insurance Coverage | [Census Health Insurance](https://www.census.gov/topics/health/health-insurance.html) | Insurance coverage by race, income, and geography |
+
 
 ## 🛠Tools & Technologies
 
